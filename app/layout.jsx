@@ -5,9 +5,9 @@ import Provider from "@/components/Provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "K Tirumala Achari – Full Stack Developer ",
+  title: "K Tirumala Achari – Full Stack Developer",
   description:
-    "K Tirumala Achari is a Full Stack Developer from Berhampur, Odisha, and a 2026 Computer Science graduate at NIST University. He builds scalable, clean, and responsive web applications using React, Next.js, Node.js, Express.js, MongoDB, and TypeScript, with a strong foundation in Java and Data Structures & Algorithms.",
+    "K Tirumala Achari is a Full Stack Developer from Berhampur, Odisha, and a 2026 Computer Science graduate at NIST University. He builds scalable, clean, and responsive web applications using React, Next.js, Node.js, Express.js, MongoDB, and TypeScript.",
   keywords: [
     "K Tirumala Achari",
     "Full Stack Developer India",
@@ -20,61 +20,44 @@ export const metadata = {
   creator: "K Tirumala Achari",
   publisher: "K Tirumala Achari",
   category: "Technology",
-  metadataBase: new URL("https://ktirumalaachari.vercel.app/"),
-  formatDetection: {
-    email: true,
-    address: false,
-    telephone: false,
-  },
+
+  metadataBase: new URL("https://ktirumalaachari.vercel.app"),
+
   openGraph: {
-    title: "K Tirumala Achari – Full Stack Developer | React, Node, MongoDB",
+    title:
+      "K Tirumala Achari – Full Stack Developer | React, Node, MongoDB",
     description:
-      "Explore the portfolio of K Tirumala Achari, a Full Stack Developer skilled in MERN stack, TypeScript, Java, and more. Based in Odisha, India – building modern web apps with React, Node.js, and MongoDB.",
+      "Explore the portfolio of K Tirumala Achari, Full Stack Developer skilled in MERN stack and modern web technologies.",
     url: "https://ktirumalaachari.vercel.app/",
     siteName: "K Tirumala Achari",
     images: [
       {
-        url: "/Tirumala/1759564895712.jpg",
-        width: 600,
-        height: 600,
+        url:
+          "https://ktirumalaachari.vercel.app/Tirumala/1759564895712.jpg?v=2",
+        width: 1200,
+        height: 630,
+        alt: "K Tirumala Achari Portfolio",
       },
-      {
-        url: "/Tirumala/logo.jpg",
-        width: 500,
-        height: 600,
-      },
-      // {
-      //   url: 'https://nextjs.org/og-alt.png', // Must be an absolute URL
-      //   width: 1800,
-      //   height: 1600,
-      //   alt: 'My custom alt',
-      // },
     ],
     locale: "en_US",
     type: "website",
   },
+
   icons: {
     icon: "/logo.jpg",
     shortcut: "/shortcut-icon.png",
     apple: "/apple-icon.png",
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "K Tirumala AChari – Full Stack Developer | React & Node.js",
+    title:
+      "K Tirumala Achari – Full Stack Developer | React & Node.js",
     description:
-      "K Tirumala AChari is a Full Stack Web Developer from Odisha, India. Skilled in JavaScript, React, Node.js, MongoDB, NestJS, and more. Visit portfolio to know more.",
-    siteId: "",
-    creator: "@K Tirumala AChari",
-    creatorId: "@K Tirumala AChari",
-    images: ["/Tirumala/logo.jpg"],
-  },
-  verification: {
-    google: "google",
-    yandex: "yandex",
-    yahoo: "yahoo",
-    // other: {
-    //   me: ['my-email', 'my-link'],
-    // },
+      "Full Stack Developer portfolio showcasing projects, skills, and experience.",
+    images: [
+      "https://ktirumalaachari.vercel.app/Tirumala/1759564895712.jpg?v=2",
+    ],
   },
 };
 
